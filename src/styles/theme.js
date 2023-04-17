@@ -1,0 +1,45 @@
+export const theme = {
+  colors: {
+    primaryColor: '#0A1128',
+    secondaryColor: '#dc143c',
+    white: '#FFFFFF',
+    mediumGray: '#DDDDDD',
+  },
+  font: {
+    family: {
+      default: "'Open Sans', sans-serif;",
+      title: "'Montserrat', sans-serif;",
+    },
+    sizes: {
+      ssmall: '0.8rem',
+      small: '1.6rem',
+      xsmall: '1.8rem',
+      smedium: '2.0rem',
+      medium: '2.4rem',
+      xmedium: '3.0rem',
+      large: '3.2rem',
+      xlarge: '4.0rem',
+      xxlarge: '4.8rem',
+      shuge: '5rem',
+      huge: '5.6rem',
+      xhuge: '6.4rem',
+    },
+  },
+  media: {
+    lteMedium: '(max-width: 768px)',
+  },
+  spacings: {
+    ssmall: '0.8rem',
+    small: '1.6rem',
+    xsmall: '1.8rem',
+    smedium: '2.0rem',
+    medium: '2.4rem',
+    xmedium: '3.0rem',
+    large: '3.2rem',
+    xlarge: '4.0rem',
+    xxlarge: '4.8rem',
+    shuge: '5rem',
+    huge: '5.6rem',
+    xhuge: '6.4rem',
+  },
+};

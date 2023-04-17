@@ -15,6 +15,11 @@ exports[`<Footer /> should render footer 1`] = `
 
 .c0 p {
   font-size: 1.6rem;
+  margin: 2.4rem 0;
+}
+
+.c0 span {
+  color: #dc143c;
 }
 
 .c0 .c1 {
@@ -23,7 +28,7 @@ exports[`<Footer /> should render footer 1`] = `
 }
 
 .c3 {
-  font-size: 2.4rem;
+  font-size: 2.0rem;
 }
 
 <div>

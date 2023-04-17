@@ -15,8 +15,9 @@ exports[`<GoTop /> should render a go to top button 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   position: fixed;
-  background: #0A1128;
-  color: #FFFFFF;
+  background: #FFFFFF;
+  color: #0A1128;
+  border: 1px solid #0A1128;
   width: 4rem;
   height: 4rem;
   bottom: 2rem;

@@ -26,8 +26,18 @@ describe('<Heading />', () => {
   });
 
   it('should render correct heading sizes', () => {
-    const { rerender } = renderTheme(<Heading size="small">texto</Heading>);
+    const { rerender } = renderTheme(<Heading size="ssmall">texto</Heading>);
     const heading = screen.getByRole('heading', { name: 'texto' });
+
+    expect(heading).toHaveStyle({
+      'font-size': theme.font.sizes.small,
+    });
+
+    rerender(
+      <ThemeProvider theme={theme}>
+        <Heading size="small">texto</Heading>
+      </ThemeProvider>,
+    );
 
     expect(heading).toHaveStyle({
       'font-size': theme.font.sizes.medium,

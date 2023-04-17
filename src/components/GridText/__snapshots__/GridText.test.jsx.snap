@@ -14,7 +14,7 @@ exports[`<GridText /> should render grid text section 1`] = `
 }
 
 .c6 {
-  font-size: 2.4rem;
+  font-size: 2.0rem;
 }
 
 .c2 .c5 {
@@ -167,7 +167,7 @@ exports[`<GridText /> should render grid text section without background 1`] = `
 }
 
 .c6 {
-  font-size: 2.4rem;
+  font-size: 2.0rem;
 }
 
 .c2 .c5 {

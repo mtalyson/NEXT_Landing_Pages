@@ -3,7 +3,7 @@
 exports[`<GridTwoColumns /> should render two columns grid 1`] = `
 .c5 {
   color: #0A1128;
-  font-size: 6.4rem;
+  font-size: 5rem;
   text-transform: uppercase;
 }
 
@@ -19,6 +19,10 @@ exports[`<GridTwoColumns /> should render two columns grid 1`] = `
 
 .c2 .c4 {
   margin-bottom: 4.0rem;
+}
+
+.c7 {
+  width: 100%;
 }
 
 .c1 {
@@ -43,7 +47,7 @@ exports[`<GridTwoColumns /> should render two columns grid 1`] = `
 }
 
 .c6 {
-  font-size: 2.4rem;
+  font-size: 2.0rem;
 }
 
 @media (max-width:768px) {
@@ -94,8 +98,8 @@ exports[`<GridTwoColumns /> should render two columns grid 1`] = `
         >
           <img
             alt="Grid two columns"
-            class=""
-            src="assets/images/javascript.svg"
+            class="c7"
+            src="https://res.cloudinary.com/dfolkslhs/image/upload/v1681740530/javascript_7e340239d7_ad88e6c6d2_9b777b2e9d.svg"
           />
         </div>
       </div>

@@ -1,5 +1,6 @@
-import { ThemeProvider } from "styled-components";
-import { theme } from "../styles/theme";
+import { ThemeProvider } from 'styled-components';
+import { theme } from '../styles/theme';
+import AppProps from 'next/app';
 
 export default function App({ Component, pageProps }) {
   return (
@@ -8,3 +9,5 @@ export default function App({ Component, pageProps }) {
     </ThemeProvider>
   );
 }
+
+App.propTypes = AppProps.prototype;

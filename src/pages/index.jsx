@@ -1,9 +1,34 @@
-import styled from 'styled-components';
+import P from 'prop-types';
+import { loadPages } from '../api/load-pages';
 
-const Heading = styled.h1`
-  background: ${({ theme }) => theme.colors.secondaryColor};
-`;
+import Home from '../templates/Home';
 
-export default function Home() {
-  return <Heading>Oi</Heading>;
+export default function Index({ data = null }) {
+  return <Home data={data} />;
 }
+
+export const getStaticProps = async () => {
+  let data;
+
+  try {
+    data = await loadPages();
+  } catch {
+    data = null;
+  }
+
+  if (!data || !data.length) {
+    return {
+      notFound: true,
+    };
+  }
+
+  return {
+    props: {
+      data,
+    },
+  };
+};
+
+Index.propTypes = {
+  data: P.array,
+};

@@ -11,7 +11,7 @@ export const getStaticProps = async () => {
   let data;
 
   try {
-    data = await loadPages();
+    data = await loadPages('landing-page');
   } catch {
     data = null;
   }

@@ -31,6 +31,7 @@ module.exports = {
     },
   },
   rules: {
+    '@next/next/no-img-element': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/jsx-no-target-blank': 'off',
     'react/prop-types': 'warn',

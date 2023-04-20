@@ -2,7 +2,7 @@
 
 Aplicação de uma landing page construída com Next.js. 
 
-[landing-pages-next.netlify.app/](landing-pages-next.netlify.app/)
+[https://landing-pages-next.netlify.app/](https://landing-pages-next.netlify.app/)
 
 ## :computer: Screenshots (Web)
 

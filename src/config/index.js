@@ -1,5 +1,5 @@
 export default {
-  url: 'https://strapi-landing-pages-ah7d.onrender.com/api/pages/?&populate=deep&',
-  siteName: 'Talyson Moreira',
-  defaultSlug: 'landing-page',
+  url: process.env.REACT_APP_API_URL,
+  siteName: process.env.REACT_APP_API_SITE_NAME,
+  defaultSlug: process.env.REACT_APP_API_DEFAULT_SLUG,
 };

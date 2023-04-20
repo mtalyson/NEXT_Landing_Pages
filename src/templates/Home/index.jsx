@@ -10,8 +10,6 @@ import { GridText } from '../../components/GridText';
 import { GridImage } from '../../components/GridImage';
 import { theme } from '../../styles/theme';
 
-import config from '../../config';
-
 function Home({ data }) {
   if (!data) {
     return <Error />;
@@ -26,7 +24,7 @@ function Home({ data }) {
       footerHtml={footerHtml}
       logoData={{ text, link, srcImg }}>
       <Head>
-        <title>{`${title} | ${config.siteName}`}</title>
+        <title>{`${title} | Talyson Moreira`}</title>
         <meta name="theme-color" content={theme.colors.primaryColor} />
         <meta
           name="description"

@@ -30,7 +30,8 @@ export const getStaticProps = async (ctx) => {
 
   try {
     data = await loadPages(ctx.params.slug);
-  } catch (e) {
+  } catch (error) {
+    console.log(error);
     data = null;
   }
 
